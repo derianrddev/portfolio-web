@@ -1,0 +1,88 @@
+---
+import { work } from "@cv";
+import Section from "@/components/Section.astro";
+---
+
+<Section title="Experiencia laboral">
+  <ul>
+    {
+      work.map(
+        ({ name, startDate, endDate, position, summary, url }) => {
+          const startMonth = new Date(startDate).toLocaleString('default', { month: 'short' }).toUpperCase();
+          const startYear = new Date(startDate).getFullYear();
+          const endMonth = endDate != null ? new Date(endDate).toLocaleString('default', { month: 'short' }).toUpperCase() : "";
+          const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
+          const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
+
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h3>
+                      <a href={url} title={`Ver ${name}`} target="_blank">
+                        {name}
+                      </a>
+                    </h3>
+                    <h4>{position}</h4>
+                  </div>
+
+                  <time>{years}</time>
+                </header>
+
+                <footer>
+                  <p>{summary}</p>
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #fff;
+  }
+
+  article a {
+    color: #fff;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article h4 {
+    color: #d1d5db;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #9ca3af;
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>

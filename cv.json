@@ -1,0 +1,297 @@
+{
+  "basics": {
+    "name": "Derian Martín Rodríguez Durán",
+    "label": "Fullstack Software Engineer",
+    "image": "https://avatars.githubusercontent.com/u/59376626?v=4",
+    "email": "dmrodriguez2000@gmail.com",
+    "phone": "+506 83428227",
+    "url": "/me.webp",
+    "summary": "Ingeniero en Computación con +1 año de experiencia laboral en desarrollo software, utilizando tecnologías como Angular, Tailwind CSS, C#, PostgreSQL, entre otras. Poseo una actitud responsable y eficiente en la gestión del tiempo, logrando cumplir con los plazos de los proyectos. Me considero una persona adaptable y resolutiva, lo que me permite enfrentar nuevos desafíos con confianza y encontrar soluciones de manera creativa. Además, me gusta estar aprendiendo y descubriendo nuevas tecnologías.",
+    "location": {
+      "address": "",
+      "postalCode": "21007",
+      "canton": "San Carlos",
+      "province": "Alajuela",
+      "countryCode": "CR",
+      "country": "Costa Rica"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "derian-rodriguez22",
+        "url": "https://linkedin.com/in/derian-rodriguez22"
+      },
+      {
+        "network": "GitHub",
+        "username": "derianrddev",
+        "url": "https://github.com/derianrddev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "KuarcTech Solutions",
+      "position": "Intern Software Engineer",
+      "url": "https://kuarctech.com/",
+      "startDate": "2023-07-25",
+      "endDate": "2024-02-29",
+      "summary": "Diseño e implementación de un nuevo sistema para una aplicación web de un cliente de la empresa en un equipo de 4 personas usando Angular, Tailwind CSS, C# y PostgreSQL. Estuve a cargo del frontend de la aplicación, la implementación del WebSocket y del envío de eventos a través de la arquitectura event driven."
+    },
+    {
+      "name": "Kámien",
+      "position": "Freelacer",
+      "url": "https://kamienimportaciones.netlify.app/",
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-30",
+      "summary": "Diseño e implementación de una aplicación de comercio electrónico para una empresa de importación de productos en un equipo de 5 personas usando Material UI, React, Redux y Firebase. Desarrollé las funcionalidades de autenticación y gestión de pedidos donde se muestran todos los pedidos de los clientes."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Costa Rica",
+      "url": "https://www.tec.ac.cr/",
+      "title": "Bachillerato en Ingeniería en Computación",
+      "startDate": "2020-02-01",
+      "endDate": "2023-12-31",
+      "score": "93.56061"
+    },
+    {
+      "institution": "Colegio Agropecuario de San Carlos",
+      "url": "https://www.casc.ed.cr/casc/",
+      "title": "Bachillerato en Educación Media y Técnico Medio en Desarrollo de Software",
+      "startDate": "2016-02-01",
+      "endDate": "2018-12-31",
+      "score": "90"
+    }
+  ],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
+      ]
+    },
+    {
+      "name": "C#",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "C#", "Servidor"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "C# Framework", "Servidor"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Python", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Firebase",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "EventosCR",
+      "isActive": true,
+      "description": "Aplicación de venta de entradas para eventos.",
+      "technologies": [
+        "React",
+        "Bootstrap 5",
+        "ASP.NET Core",
+        "MySQL"
+      ],
+      "github": "https://github.com/derianrddev/eventoscr"
+    },
+    {
+      "name": "Jarvis TEC",
+      "isActive": true,
+      "description": "IA entrenada como asistente personal con el que se interactúa por voz.",
+      "technologies": [
+        "React",
+        "Python",
+        "Flask",
+        "IA"
+      ],
+      "github": "https://github.com/cris-gs/jarvis-ia"
+    },
+    {
+      "name": "Clasificador de Urls",
+      "isActive": true,
+      "description": "Aplicación web que clasificaba las páginas web según dos categorías, juegos o computación según su información.",
+      "technologies": [
+        "Python",
+        "Algoritmo de Naive Bayes",
+        "Web Scraping",
+        "Multiprocesamiento"
+      ],
+      "github": "https://github.com/cris-gs/url-classification"
+    },
+    {
+      "name": "Chat App",
+      "isActive": true,
+      "description": "Aplicación de chat en tiempo real.",
+      "technologies": [
+        "React",
+        "Firebase"
+      ],
+      "url": "https://sopepechat.netlify.app/",
+      "github": "https://github.com/cris-gs/chat-app-so"
+    },
+    {
+      "name": "GASUT",
+      "isActive": true,
+      "description": "Aplicación web sin fines de lucro donde los usuarios que no necesitaban ciertos productos los publicaban en la página y así otros usuarios contactan con ellos para adquirirlo con el fin de promover la reutilización de productos usados.",
+      "technologies": [
+        "React",
+        "Redux",
+        "Bootstrap 5",
+        "Firebase"
+      ],
+      "url": "https://gasut.netlify.app/",
+      "github": "https://github.com/jonathan20dev/GASUT"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+---
+import { skills } from "@cv";
+import Section from "@/components/Section.astro";
+import HTML from "@/icons/HTML.astro";
+import CSS from "@/icons/CSS.astro";
+import JavaScript from "@/icons/JavaScript.astro";
+import Bootstrap from "@/icons/Bootstrap.astro";
+import TailwindCSS from "@/icons/TailwindCSS.astro";
+import TypeScript from "@/icons/TypeScript.astro";
+import Git from "@/icons/Git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import React from "@/icons/React.astro";
+import Angular from "@/icons/Angular.astro";
+import CSharp from "@/icons/CSharp.astro";
+import NET from "@/icons/NET.astro";
+import Node from "@/icons/Node.astro";
+import Python from "@/icons/Python.astro";
+import MySQL from "@/icons/MySQL.astro";
+import PostgreSQL from "@/icons/PostgreSQL.astro";
+import SQLServer from "@/icons/SQLServer.astro";
+import Firebase from "@/icons/Firebase.astro";
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  Bootstrap,
+  TailwindCSS,
+  TypeScript,
+  Git,
+  GitHub,
+  React,
+  Angular,
+  CSharp,
+  NET,
+  Node,
+  Python,
+  MySQL,
+  PostgreSQL,
+  SQLServer,
+  Firebase,
+}
+---
+
+<Section title="Tecnologías">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const iconName = name === "Tailwind CSS" ? "TailwindCSS" :
+                         name === "Node.js" ? "Node" :
+                         name === "C#" ? "CSharp" :
+                         name === ".NET" ? "NET" :
+                         name === "SQL Server" ? "SQLServer" :
+                         name;
+        const Icon = SKILLS_ICONS[iconName];
+
+        return (
+          <li>
+            <div>
+              {Icon && <Icon />} <span>{name}</span>
+            </div>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    justify-content: center;
+    background: #161616;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.6rem;
+    width: 110px;
+    border: 1px solid #262626;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  span {
+    margin-top: 10px;
+  }
+
+  @media print {
+    li {
+      background: #eee;
+      color: #444;
+      border: none;
+    }
+  }
+</style>
