@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Derian Martín Rodríguez Durán",
-    "label": "Fullstack Software Engineer",
+    "label": "Software Engineer",
     "image": "https://avatars.githubusercontent.com/u/59376626?v=4",
     "email": "dmrodriguez2000@gmail.com",
     "phone": "+506 83428227",
     "url": "/me.webp",
-    "summary": "Ingeniero en Computación con +1 año de experiencia laboral en desarrollo software, utilizando tecnologías como Angular, Tailwind CSS, C#, PostgreSQL, entre otras. Poseo una actitud responsable y eficiente en la gestión del tiempo, logrando cumplir con los plazos de los proyectos. Me considero una persona adaptable y resolutiva, lo que me permite enfrentar nuevos desafíos con confianza y encontrar soluciones de manera creativa. Además, me gusta estar aprendiendo y descubriendo nuevas tecnologías.",
+    "summary": "Computer Engineer with around 1 year of work experience in software development, using technologies such as Angular, Tailwind CSS, C#, PostgreSQL, among others. I have a responsible and efficient attitude in time management, managing to meet project deadlines. I consider myself an adaptable and decisive person, which allows me to face new challenges with confidence and find solutions in a creative way. In addition, I like to be learning and discovering new technologies.",
     "location": {
       "address": "",
       "postalCode": "21007",
@@ -34,23 +34,23 @@
       "position": "Intern Software Engineer",
       "url": "https://kuarctech.com/",
       "startDate": "2023-07-25",
-      "endDate": "2024-02-29",
-      "summary": "Diseño e implementación de un nuevo sistema para una aplicación web de un cliente de la empresa en un equipo de 4 personas usando Angular, Tailwind CSS, C# y PostgreSQL. Estuve a cargo del frontend de la aplicación, la implementación del WebSocket y del envío de eventos a través de la arquitectura event driven."
+      "endDate": "2023-12-31",
+      "summary": "Design and implementation of a new system for a web application for a company client in a team of 4 people using Angular, Tailwind CSS, C# and PostgreSQL. I was in charge of the frontend of the application, WebSocket implementation and event dispatching through event driven architecture."
     },
     {
       "name": "Kámien",
-      "position": "Freelacer",
+      "position": "Full Stack Developer",
       "url": "https://kamienimportaciones.netlify.app/",
-      "startDate": "2023-02-01",
+      "startDate": "2023-02-22",
       "endDate": "2023-06-30",
-      "summary": "Diseño e implementación de una aplicación de comercio electrónico para una empresa de importación de productos en un equipo de 5 personas usando Material UI, React, Redux y Firebase. Desarrollé las funcionalidades de autenticación y gestión de pedidos donde se muestran todos los pedidos de los clientes."
+      "summary": "Design and implementation of an e-commerce application for a product import company in a team of 5 people using Material UI, React, Redux and Firebase. I developed the authentication and order management functionalities where all customer orders are displayed."
     }
   ],
   "education": [
     {
       "institution": "Instituto Tecnológico de Costa Rica",
       "url": "https://www.tec.ac.cr/",
-      "title": "Bachillerato en Ingeniería en Computación",
+      "title": "Bachelor's Degree in Computer Engineering",
       "startDate": "2020-02-01",
       "endDate": "2023-12-31",
       "score": "93.56061"
@@ -58,7 +58,7 @@
     {
       "institution": "Colegio Agropecuario de San Carlos",
       "url": "https://www.casc.ed.cr/casc/",
-      "title": "Bachillerato en Educación Media y Técnico Medio en Desarrollo de Software",
+      "title": "Bachelor's Degree in Secondary Education and Software Development Medium Technician",
       "startDate": "2016-02-01",
       "endDate": "2018-12-31",
       "score": "90"
@@ -236,7 +236,7 @@
     {
       "name": "EventosCR",
       "isActive": true,
-      "description": "Aplicación de venta de entradas para eventos.",
+      "description": "Ticket sales application for events.",
       "technologies": [
         "React",
         "Bootstrap 5",
@@ -248,31 +248,31 @@
     {
       "name": "Jarvis TEC",
       "isActive": true,
-      "description": "IA entrenada como asistente personal con el que se interactúa por voz.",
+      "description": "AI trained as a personal assistant with which you interact by voice.",
       "technologies": [
         "React",
         "Python",
         "Flask",
-        "IA"
+        "AI"
       ],
       "github": "https://github.com/cris-gs/jarvis-ia"
     },
     {
-      "name": "Clasificador de Urls",
+      "name": "Urls Classifier",
       "isActive": true,
-      "description": "Aplicación web que clasificaba las páginas web según dos categorías, juegos o computación según su información.",
+      "description": "Web application that classified web pages according to two categories, games or computing according to their information.",
       "technologies": [
         "Python",
-        "Algoritmo de Naive Bayes",
+        "Naive Bayes Algorithm",
         "Web Scraping",
-        "Multiprocesamiento"
+        "Multiprocessing"
       ],
       "github": "https://github.com/cris-gs/url-classification"
     },
     {
       "name": "Chat App",
       "isActive": true,
-      "description": "Aplicación de chat en tiempo real.",
+      "description": "Real time chat application.",
       "technologies": [
         "React",
         "Firebase"
@@ -283,7 +283,7 @@
     {
       "name": "GASUT",
       "isActive": true,
-      "description": "Aplicación web sin fines de lucro donde los usuarios que no necesitaban ciertos productos los publicaban en la página y así otros usuarios contactan con ellos para adquirirlo con el fin de promover la reutilización de productos usados.",
+      "description": "Non-profit web application where users who did not need certain products posted them on the page and other users contacted them to acquire them in order to promote the reuse of used products.",
       "technologies": [
         "React",
         "Redux",

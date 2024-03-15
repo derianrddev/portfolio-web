@@ -3,15 +3,15 @@ import { work } from "@cv";
 import Section from "@/components/Section.astro";
 ---
 
-<Section title="Experiencia laboral">
+<Section title="Experience">
   <ul>
     {
       work.map(
         ({ name, startDate, endDate, position, summary, url }) => {
-          const startMonth = new Date(startDate).toLocaleString('default', { month: 'short' }).toUpperCase();
+          const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' }).toUpperCase();
           const startYear = new Date(startDate).getFullYear();
-          const endMonth = endDate != null ? new Date(endDate).toLocaleString('default', { month: 'short' }).toUpperCase() : "";
-          const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
+          const endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'short' }).toUpperCase() : "";
+          const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present";
           const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
 
           return (
