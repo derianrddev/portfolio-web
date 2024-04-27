@@ -234,6 +234,28 @@
   }],
   "projects": [
     {
+      "name": "Country App",
+      "isActive": true,
+      "description": "Application to search for countries by capital city, country name or region (continent) and display their information.",
+      "technologies": [
+        "Angular",
+        "Tailwind CSS"
+      ],
+      "url": "https://derianrddev.github.io/country-app/",
+      "github": "https://github.com/derianrddev/country-app"
+    },
+    {
+      "name": "Gifs App",
+      "isActive": true,
+      "description": "Application to search for gifs.",
+      "technologies": [
+        "Angular",
+        "Bootstrap 5"
+      ],
+      "url": "https://derianrddev.github.io/gifs-app/",
+      "github": "https://github.com/derianrddev/gifs-app"
+    },
+    {
       "name": "EventosCR",
       "isActive": true,
       "description": "Ticket sales application for events.",
